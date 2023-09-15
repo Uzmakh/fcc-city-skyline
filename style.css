@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
 :root {
     --building-color1: #aa80ff;
     --building-color2: #66cc99;
@@ -7,16 +16,6 @@
     --window-color2: #8cd9b3;
     --window-color3: #d98cb3;
     --window-color4: #8cb3d9;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
 }
 
 .background-buildings,
